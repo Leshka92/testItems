@@ -1,2 +1,2 @@
 # testItems
-web tests
+Тестовые файлы по основам Java Script
