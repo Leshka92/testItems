@@ -1,6 +1,6 @@
 "use strict";
 
-//Создадим 4 произвольных массива для будущего объекта
+//Создадим функцию 4 произвольных массива для будущего объекта
 function makeCar() {
 
 var makes = ["Toyota", "Fiat", "Mazda", "Vaz", "BMW", "Audi"];
@@ -33,10 +33,11 @@ var car = {
 };
 return car;
 }
-
+// Возвратим нашу ф-цию
 function displayCar(car) {
   alert("Это новая машина " + car.make + " " + car.year + " " + car.model + " с пробегом " + car.mileage + " километров" + " цвета " + car.color);
 }
+//Вызовем ф-цию makeCar и присвоим ее значение новой переменной
 var carToSell = makeCar();
 displayCar(carToSell);
 
